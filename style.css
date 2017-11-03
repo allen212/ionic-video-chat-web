@@ -255,3 +255,23 @@ footer a.button {
 	margin-top: 10em;
 	font-size: 1.5em;
 }
+
+@media (max-width: 624px) {
+	.container {
+		width: 100%;
+		padding-right: 12px;
+		padding-left: 12px;
+	}
+	body {
+		font-size: 8px;
+	}
+	header a {
+		margin: 1em .5em 0 .5em;
+	}
+	header a:first-child {
+		margin-left: 0;
+	}
+	header a:last-child {
+		margin-right: 0;
+	}
+}
